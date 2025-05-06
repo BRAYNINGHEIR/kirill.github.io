@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Играйте с нами! Все о видеоиграх и индустрии">
+    <meta name="keywords" content="видеоигры, новости, игровые анонсы, обзоры, гейминг">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игровой портал - Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Игровой Портал</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+                <li><a href="subscribe.html">Подписка</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Welcome section with text -->
+        <section class="fade-in">
+            <h2>Добро пожаловать!</h2>
+            <p>Игровой Портал — ваш источник актуальных новостей о видеоиграх, анонсах, релизах и многом другом. Присоединяйтесь к нам, чтобы следить за последними событиями в мире гейминга и киберспорта.</p>
+        </section>
+
+        <!-- Featured section with images -->
+        <section class="fade-in">
+            <h2>Последние новости</h2>
+            <div class="carousel">
+                <img src="images/gta6.jpeg" alt="GTA VI">
+                <img src="images/starfield.png" alt="Starfield">
+                <img src="images/cs2.png" alt="Counter-Strike 2">
+            </div>
+        </section>
+
+        <section class="fade-in">
+            <h2>Карточки популярных игр</h2>
+            <div class="game-cards">
+                <div class="card">
+                    <img src="images/gta6.jpeg" alt="GTA VI">
+                    <h3>GTA VI</h3>
+                    <p>Новый анонс и подробности о GTA VI.</p>
+                    <a href="news.html">Читать далее</a>
+                </div>
+                <div class="card">
+                    <img src="images/starfield.png" alt="Starfield">
+                    <h3>Starfield</h3>
+                    <p>Ожидаемое обновление для Starfield.</p>
+                    <a href="news.html">Читать далее</a>
+                </div>
+                <div class="card">
+                    <img src="images/cs2.png" alt="Counter-Strike 2">
+                    <h3>Counter-Strike 2</h3>
+                    <p>Новый этап для легендарной серии.</p>
+                    <a href="news.html">Читать далее</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="fade-in">
+            <h2>Оставьте отзыв</h2>
+            <form action="#" method="post">
+                <label for="name">Ваше имя:</label><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="message">Ваш отзыв:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+
+                <input type="submit" value="Отправить">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Игровой Портал. Все права защищены.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Подписка на рассылку GameNews">
+    <meta name="keywords" content="подписка, рассылка, новости игр, email, GameNews">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameNews - Подписка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Подписка</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="about.html">О проекте</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+                <li><a href="subscribe.html" class="active">Подписка</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="fade-in">
+            <h2>Подпишитесь на нашу рассылку!</h2>
+            <p>Получайте самые свежие новости, эксклюзивные материалы, анонсы и акции на вашу почту! Подписка бесплатна, и вы всегда будете в курсе самых актуальных событий.</p>
+            <form action="#" method="post">
+                <label for="email-sub">Email:</label><br>
+                <input type="email" id="email-sub" name="email" required placeholder="your@email.com"><br>
+
+                <fieldset>
+                    <legend>Выберите интересующие темы:</legend>
+                    <input type="checkbox" id="news" name="interest" value="news">
+                    <label for="news">Новости</label><br>
+                    <input type="checkbox" id="reviews" name="interest" value="reviews">
+                    <label for="reviews">Обзоры</label><br>
+                    <input type="checkbox" id="videos" name="interest" value="videos">
+                    <label for="videos">Видео</label><br>
+                </fieldset>
+
+                <input type="submit" value="Подписаться">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 GameNews.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
